@@ -4,23 +4,23 @@ A modern, video-first recruitment platform where candidates record a short “el
 
 ## 🎯 What is this?
 
-The platform reimagines job search/interview by replacing or augmenting static resumes with short video pitches (≈ 30 sec). This allows employers to quickly evaluate communication skills, motivation, and personality — and lets candidates stand out with more human, dynamic self‑presentation.  
+The platform reimagines job search/interview by replacing or augmenting static resumes with short video pitches (≈ 30 sec). This allows employers to quickly evaluate communication skills, motivation, and personality — and lets candidates stand out with more human, dynamic self‑presentation.
 
-Employers and recruiters can post job adverts, review applicant video pitches, and optionally upload a company‑culture video to help candidates gauge fit.  
+Employers and recruiters can post job adverts, review applicant video pitches, and optionally upload a company‑culture video to help candidates gauge fit.
 
 ---
 
 ## 🧩 Key Features
 
-- **Candidate video pitch (≈ 30 sec)** — instead of just a CV / resume  
-- **Job listing & application system** — standard job board flows (post job ads, browse openings, apply)  
-- **Company culture pitch** — employers can upload a short video to showcase workplace, team, values  
-- **Role‑based users** — differentiate between candidates and employers/recruiters  
-- **Media support** — file upload (video, image), storage, streaming/processing  
-- **Real‑time & async workflows** — for applications, feedback, messaging (optional)  
-- **Secure authentication & authorization** — user signup/login, role management  
-- **Modern frontend UI / UX** — responsive, accessible, interactive (job feed, pitch playback, etc.)  
-- **Extensible backend** — for user management, job/ application models, media handling, data storage  
+- **Candidate video pitch (≈ 30 sec)** — instead of just a CV / resume
+- **Job listing & application system** — standard job board flows (post job ads, browse openings, apply)
+- **Company culture pitch** — employers can upload a short video to showcase workplace, team, values
+- **Role‑based users** — differentiate between candidates and employers/recruiters
+- **Media support** — file upload (video, image), storage, streaming/processing
+- **Real‑time & async workflows** — for applications, feedback, messaging (optional)
+- **Secure authentication & authorization** — user signup/login, role management
+- **Modern frontend UI / UX** — responsive, accessible, interactive (job feed, pitch playback, etc.)
+- **Extensible backend** — for user management, job/ application models, media handling, data storage
 
 ---
 
@@ -28,22 +28,23 @@ Employers and recruiters can post job adverts, review applicant video pitches, a
 
 While this README describes the concept, here’s a sample stack you could use to build a fully functional version:
 
-- **Backend:** Node.js + TypeScript + Express  
-- **Database:** MongoDB (for users, job posts, applications, metadata)  
-- **Media Storage / Processing:** Cloud storage (e.g. Cloudinary / AWS S3), video upload via Multipart, optional video transcoding/streaming  
-- **Authentication & Authorization:** JWT‑based auth, role-based access control (candidate vs employer)  
-- **Frontend:** React (or Next.js), responsive UI components, media playback support  
-- **Real‑time / Notifications (optional):** WebSockets / Socket.io for messaging / live updates  
+- **Backend:** Node.js + TypeScript + Express
+- **Database:** MongoDB (for users, job posts, applications, metadata)
+- **Media Storage / Processing:** Cloud storage (e.g. Cloudinary / AWS S3), video upload via Multipart, optional video transcoding/streaming
+- **Authentication & Authorization:** JWT‑based auth, role-based access control (candidate vs employer)
+- **Frontend:** React (or Next.js), responsive UI components, media playback support
+- **Real‑time / Notifications (optional):** WebSockets / Socket.io for messaging / live updates
 
 ---
 
 ## 🚀 Getting Started (for Developers)
 
-1. **Clone the repository**  
+1. **Clone the repository**
    ```bash
    git clone <repo-url>
    cd <repo-directory>
-````
+   ```
+
 
 2. **Install dependencies**
 
